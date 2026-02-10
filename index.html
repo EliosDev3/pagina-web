@@ -1,11 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <title>Estudio fotográfico Fotocol2000</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bienvenido a la web del estudio fotográfico Fotocol2000</h1>
-    <h2>Esta es la página donde podrás ver nuestros trabajos</h2>
+    <!-- HEADER -->
+    <header class="header">
+        <h1 class="logo">Mi Blog</h1>
+        <nav class="nav">
+            <a href="#">Inicio</a>
+            <a href="#">Artículos</a>
+            <a href="#">Categorías</a>
+            <a href="#">Sobre mí</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <h2>Bienvenido a mi blog</h2>
+        <p>Ideas, historias y contenido que vale la pena leer</p>
+    </section>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container">
+
+        <!-- POSTS -->
+        <section class="posts">
+            <article class="post">
+                <img src="https://via.placeholder.com/400x200" alt="Post 1">
+                <h3>Título del artículo</h3>
+                <p>Este es un resumen corto del artículo para atraer al lector.</p>
+                <a href="#" class="btn">Leer más</a>
+            </article>
+
+            <article class="post">
+                <img src="https://via.placeholder.com/400x200" alt="Post 2">
+                <h3>Otro artículo interesante</h3>
+                <p>Una breve descripción del contenido del post.</p>
+                <a href="#" class="btn">Leer más</a>
+            </article>
+
+            <article class="post">
+                <img src="https://via.placeholder.com/400x200" alt="Post 3">
+                <h3>Nuevo post del blog</h3>
+                <p>Texto introductorio que invita a seguir leyendo.</p>
+                <a href="#" class="btn">Leer más</a>
+            </article>
+        </section>
+
+        <!-- SIDEBAR -->
+        <aside class="sidebar">
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#">Negocios</a></li>
+                <li><a href="#">Viajes</a></li>
+            </ul>
+
+            <h3>Suscríbete</h3>
+            <input type="email" placeholder="Tu email">
+            <button>Enviar</button>
+        </aside>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>© 2026 Mi Blog | Todos los derechos reservados</p>
+    </footer>
+	
 </body>
 </html>
